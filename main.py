@@ -327,4 +327,13 @@ try:
    
     except Exception as error:
         LOGGER.error(f'Error: {error}')  # Log the error
-        await m.reply
+        await m.reply(
+            (
+                '**'
+                f'Error: {error}'
+                '**'
+            ),
+            quote=True
+        )
+
+bot.run()
