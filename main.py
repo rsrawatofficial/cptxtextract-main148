@@ -325,7 +325,7 @@ try:
             
 
    
-    except Exception as error:
+    except Exception as error: check your code
         LOGGER.error(f'Error: {error}')  # Log the error
         await m.reply(
             (
