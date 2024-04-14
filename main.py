@@ -35,7 +35,7 @@ logging.basicConfig(
 
 bot = Client(
     "bot",
-    api_id= 28919553,
+    api_id= 27006142,
     api_hash= "2ed4532cc8353ab77179cb291ffeb86e",    
     bot_token= "7071754788:AAEU_gL99tEWgs3WM2qnRALvhmGV3Q8HtBA"
 )
